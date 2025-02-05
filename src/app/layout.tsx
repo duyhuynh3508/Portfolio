@@ -1,3 +1,4 @@
+//src/app/layout.tsx
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from 'next-themes'
@@ -21,9 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="flex flex-col min-h-screen">
-            <Navbar />
-            <main className="flex-grow">{children}</main>
-            <Footer />
+            <main className="flex-row">{children}</main>
           </div>
         </ThemeProvider>
       </body>
