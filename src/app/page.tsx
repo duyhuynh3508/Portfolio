@@ -1,3 +1,4 @@
+//src/app/page.tsx
 'use client'
 import Navigation from "@/components/layout/Navigation";
 import HeroSection from "@/components/home/HeroSection";
