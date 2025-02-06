@@ -2,7 +2,7 @@ import {Project} from '@/types/project';
 import { useState } from 'react';
 import Image from 'next/image';
 
-const Projects = () => {
+const ProjectsSection = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   const projects = [
@@ -113,4 +113,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsSection;

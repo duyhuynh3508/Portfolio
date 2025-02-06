@@ -1,5 +1,5 @@
-import Experience from '@/components/home/Experience'
-import Skills from '@/components/home/Skills'
+import Experience from '@/components/home/ExperienceSection'
+import Skills from '@/components/home/SkillsSection'
 import Container from '@/components/ui/Container'
 import SectionHeading from '@/components/shared/SectionHeading'
 

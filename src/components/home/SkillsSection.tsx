@@ -1,4 +1,4 @@
-const Skills = () => {
+const SkillsSection = () => {
   const skillCategories = [
     {
       name: 'Frontend',
@@ -45,4 +45,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default SkillsSection;

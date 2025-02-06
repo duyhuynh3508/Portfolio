@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
-const Hero = () => (
+const HeroSection = () => (
     <section id="home" className="relative min-h-screen flex items-center justify-center py-20 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
       <div className="absolute inset-0 bg-grid-gray-900/[0.03] dark:bg-grid-white/[0.02]" />
       
@@ -56,4 +56,4 @@ const Hero = () => (
       </div>
     </section>
   );
-export default Hero;
+export default HeroSection;
